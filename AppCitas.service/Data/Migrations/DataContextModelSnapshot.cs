@@ -205,6 +205,9 @@ namespace AppCitas.Service.Data.Migrations
                     b.Property<int>("AppUserId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("INTEGER");
+
                     b.Property<bool>("IsMain")
                         .HasColumnType("INTEGER");
 
@@ -227,6 +230,9 @@ namespace AppCitas.Service.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("LikedUserId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("TargetUserId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("SourceUserId", "LikedUserId");
