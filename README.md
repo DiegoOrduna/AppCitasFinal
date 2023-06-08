@@ -1,2 +1,2 @@
 # AppCitas
-Curso de Servicios Web para ICI de noveno semestre.
+Curso de Servicios Web para ICI de decimo semestre.
